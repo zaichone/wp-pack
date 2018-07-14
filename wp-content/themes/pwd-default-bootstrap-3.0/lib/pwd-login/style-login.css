@@ -1,0 +1,62 @@
+body.login { 
+	background: none repeat scroll 0 0 #333;
+
+	box-shadow: 0 0 614px rgba(0, 0, 0, 1) inset;
+	color: #444;
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	line-height: 1.4em;
+	min-width: 0;
+	text-align: center;
+}
+body.login .message{ text-align: left; }
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a { width:100%; }
+body.login div#login form{ text-align: left;}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {}
+body.login div#login p#nav {}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {}
+
+body.login .button-primary{
+	padding:10px 60px;
+	font-size:1em;
+	text-transform:lowercase;
+	color:#fff;
+	background:#ea9d1c;
+	border: #ea9d1c solid 1px; 
+	text-decoration:none;
+	box-shadow: none;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	transition:all 0.2s ease-out 0s;
+	-o-transition:all 0.2s ease-out 0s;
+	-ms-transition:all 0.2s ease-out 0s;
+	-moz-transition:all 0.2s ease-out 0s;
+	-webkit-transition:all 0.2s ease-out 0s;
+}
+body.login .button-primary:hover{
+	background:#e28205;
+	border: #e28205 solid 1px;
+	box-shadow: none;
+	text-decoration:none;
+	transition:all 0.2s ease-out 0s;
+	-o-transition:all 0.2s ease-out 0s;
+	-ms-transition:all 0.2s ease-out 0s;
+	-moz-transition:all 0.2s ease-out 0s;
+	-webkit-transition:all 0.2s ease-out 0s;
+}
+

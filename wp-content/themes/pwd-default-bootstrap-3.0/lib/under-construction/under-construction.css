@@ -1,0 +1,27 @@
+body { margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; background-color: #222222; color: #FFF; font-family: Arial, Helvetica, sans-serif; min-height: 550px; position: relative; }
+.headerText { width: 550px; margin-top: 10%; margin-right: auto; margin-left: auto; font-size: 28px; font-weight: normal; display: block; text-align: center; }
+.bodyContent { box-shadow: none; height: 380px; left: 50%; margin-left: -470px; margin-top: -180px; position: absolute; text-align: center; top: 50%; }
+.bodyText { min-height: 0; padding: 15px; position: relative; width: 940px; z-index: 2; }
+.footerText { bottom: 0; height: auto; padding: 0; position: absolute; width: 100%; z-index: 1; text-align: center; font-size: 11px; }
+.footerText a { color: #fff; text-decoration: -9999; }
+
+.gform_wrapper { color: #fff; margin: auto !important; text-align: center; width: 650px !important; }
+.gform_wrapper .gform_title{ text-align:center;}
+.gform_wrapper form { text-align: left; }
+.gform_wrapper .gform_body { float: left; }
+.gform_wrapper ul{ padding:0; margin:0;}
+.gform_wrapper ul li.gfield { clear: none; display: inline-block; float: none; width: auto; }
+.ginput_container input { background: url(images/input-bg.png) left top repeat-x; border: none!important; color: #fff; font-size: 18px !important; height: 30px !important; line-height: 30px !important; margin-right: 10px; margin-top: 3px; padding: 3px 12px !important; width: 268px !important; }
+
+input::-webkit-input-placeholder { color:#8d8d8d !important; }
+input:-moz-placeholder { color:#8d8d8d !important; }
+input:-ms-input-placeholder { color:#8d8d8d !important; }
+
+::-webkit-input-placeholder { color:#8d8d8d !important; }
+:-moz-placeholder { color:#8d8d8d !important; }
+:-ms-input-placeholder { color:   #8d8d8d !important; }
+
+.gform_body { float: left; }
+.gform_wrapper .gform_footer { clear: none; float: left; margin: 0; padding: 0; width: auto; }
+.gform_wrapper .gform_button { background: url("images/button.png") no-repeat scroll left top transparent !important; border: medium none; display: block; float: left; height: 40px !important; opacity: 0.35; text-indent: -99999px; width: 40px !important; }
+.gform_wrapper .gform_button:hover { opacity: 1; }

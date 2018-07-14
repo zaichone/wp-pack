@@ -1,0 +1,130 @@
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+	.navbar-header {
+		float: none;
+		line-height: 1em;
+		text-align: center;
+	}
+
+	.site-header .navbar-brand {
+		clear: both;
+		display: inline-table;
+		float: none;
+		font-size: 18px;
+		line-height: 1em;
+		margin: auto !important;
+		padding: 10px 0;
+	}
+
+	#searchform .field {
+		width: 140px;
+	}
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+	.site-header .navbar-brand { display: inline-table; }
+
+	.navbar-collapse {
+		border-top: medium none;
+		box-shadow: none;
+		max-height: 100%;
+		overflow-x: visible;
+	}
+
+	.navbar-collapse.in {
+		overflow-y: visible;
+	}
+
+	.navbar-nav > li > a {
+		line-height: 30px;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.dropdown-menu{
+
+		background-color: #fff;
+		border: medium none;
+
+		position: relative;
+		box-shadow: none;
+		text-align: center;
+		width: 100%; 
+	}
+
+	.dropdown-menu li{}
+	.dropdown-menu li a{ display: block; line-height: 40px;}
+
+	.home .site-main{ padding-top: 10px; }
+
+
+	#content {
+    padding: 20px 10px;
+}
+
+#sidebar {
+    margin: 20px 10px 0;
+}
+
+	#footer-sidebar {
+		padding-top: 20px;
+	}
+	.site-footer .footer-content{ padding: 0; text-align: center;}
+	.pwd-address { margin: auto; max-width: 300px; }
+
+	.site-footer .footer-info .site-copyright {
+		float: none;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#menu-footer {
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.site-footer .footer-info .site-info {
+		float: none;
+		line-height: 20px;
+		text-align: center;
+	}
+
+	.pwd-footer-link {
+		display: inline-block;
+		float: none;
+		list-style: outside none none;
+		margin: 0 0 0 5px;
+		padding: 0;
+	}
+
+	.pwd-address .phone, 
+	.pwd-address .fax, 
+	.pwd-address .email, 
+	.pwd-address .address {
+		padding-left: 0;
+		position: relative;
+		margin-bottom: 10px;
+	}
+	.pwd-address .phone .fa, 
+	.pwd-address .fax .fa, 
+	.pwd-address .email .fa, 
+	.pwd-address .address .fa {
+		display: block;
+		left: 0;
+		position: relative;
+	}
+
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }

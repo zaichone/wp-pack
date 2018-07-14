@@ -1,0 +1,5 @@
+.pwd-footer-link { display: inline-block; float:right; list-style: none outside none; padding: 0; margin:0 0 0 5px; }
+.pwd-footer-link li { display:block; float:left; margin-left: 3px; }
+.pwd-footer-link li a {  }
+.pwd-footer-link li a img { border: medium none; display: block; opacity: 0.8; }
+.pwd-footer-link li a:hover img { opacity: 1; }
